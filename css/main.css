@@ -6,6 +6,7 @@
 
 body {
   color: white;
+  background-color: #1A0B2E;
 }
 
 /* shared-style  */
@@ -43,6 +44,20 @@ body {
  background-color: transparent;
  border: 2px solid #00FF88;
 }
+
+.btn-new{
+  color: black;
+  font-size: 1rem;
+  padding: 8px 16px ;
+  font-weight: 500;
+  background-color: #00FF88;
+  border-radius: 25px;
+  border: none;
+}
+
+
+
+
 /* header */
 
 header{
@@ -126,9 +141,119 @@ border-bottom: 1px solid #412567;
   justify-content: center;
   gap: 8px;
 }
+
+.main-mic-container{
+  position: relative;
+}
+.new-button{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
 /* main section  */
 
+/* about section  */
+
+
+.about-section {
+  /* padding-top: 50px; */
+  padding-bottom: 120px;
+  padding-left: 40px ;
+  padding-right: 40px;
+}
+.about-content{
+  margin-bottom: 80px;
+  text-align: center;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #412567;
+}
+.about-content h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.about-content p{
+margin-top: 16px;
+font-weight: 300;
+line-height: 30px;
+}
+.about-items{
+  
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.item h3{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight:800 ;
+  margin-bottom: 8px;
+}
+
+
+/* why-chose-section */
+
+.why-chose-section{
+  background-color:#230E3D ;
+  padding: 120px 0px;
+}
+.why-chose-container h2{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+ 
+}
+.card-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.cards h4{
+  margin-top: 16px;
+  font-size: 1.5rem;
+}
+.cards p{
+  margin-top: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5 {
+  padding: 40px;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+}
+
+.card-1{
+  grid-row: span 2 ;
+}
+
+ .card-2 {
+  grid-column: span 2;
+ }
+
+  .card-3{
+    grid-column: span 2;
+  }
+
+  .card-4{
+    grid-column: span 2;
+  }
+
+    .card-5 {
+      grid-column: span 1;
+    }
 
 
 
 /* footer section  */
+

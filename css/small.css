@@ -57,11 +57,49 @@ nav .btn-primary {
   gap: 8px;
 }
 
+.new-button{
+  position: absolute;
+  top: 110px;
+  right: 5px;
+}
 
+/* about- section */
+.about-items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  gap: 30px;
+  text-align: center;
+}
+.item h3{
+ 
+  font-size: 2.7rem;
+  
+}
 
+/* why chose section  */
 
+.cards{
+   grid-template-columns: 1fr;
+   /* grid-template-rows: 1fr; */
+}
+.card-1{
+  grid-row: span 1 ;
+}
+ .card-2 {
+  grid-column: span 1;
+ }
 
+  .card-3{
+    grid-column: span 1;
+  }
 
+  .card-4{
+    grid-column: span 1;
+  }
+ .card-5 {
+      grid-column: span 1;
+    }
 
 
 
