@@ -102,6 +102,13 @@ nav .btn-primary {
     }
 
 
+/* episode section  */
+
+.episodes{
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 

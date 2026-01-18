@@ -253,7 +253,47 @@ line-height: 30px;
       grid-column: span 1;
     }
 
+    /* feature episode section */
+    
+.episode-section h2{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.episode-content{
+  padding: 24px;
+}
+.episode h4{
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
 
+.episodes{
+  gap: 30px;
+}
+    .episode{
+      background-color: #250D44;
+      border-radius: 20px;
+      max-width: 380px;
+      
+    }
+.video iframe{
+  max-width:380px;
+  max-height: 215px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+.episode-clock p{
+  
+  color: #00FF88;
+}
+.episode-clock {
+  gap: 6px;
+  margin-top: 12px;
+}
 
 /* footer section  */
 
