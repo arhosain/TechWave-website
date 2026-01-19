@@ -109,9 +109,15 @@ nav .btn-primary {
   align-items: center;
 }
 
+/* host- section  */
 
-
-
+.host-container{
+  flex-direction: column;
+  text-align: center;
+}
+.host-social{
+  justify-content: center;
+}
 
 
 
