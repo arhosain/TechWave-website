@@ -362,3 +362,7 @@ footer{
   display: flex;
   gap: 8px;
 }
+
+.footer-copy-right{
+  color: #FAFAFA;
+}
