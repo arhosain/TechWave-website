@@ -1,6 +1,11 @@
 
 @media screen and (max-width: 576px) {
   
+nav{
+padding: 20px 5px;
+}
+
+
  .nav-contents{
   display: none;
  }
@@ -10,6 +15,13 @@ nav .btn-primary {
 .nav-icon{
   display: flex;
 }
+
+.logo img{
+  max-width: 180px;
+  
+}
+
+
 
 /* hero-section  */
 .hero-section{
@@ -68,6 +80,7 @@ nav .btn-primary {
 }
 
 /* about- section */
+
 .about-content{
   margin-top: 40px;
 }
@@ -93,7 +106,7 @@ line-height: 20px;
 
 /* why chose section  */
 .why-chose-section{
-  padding: 50px 0px;
+  padding: 50px 5px;
 }
 .why-chose-section h2{
   font-size: 2rem ;
@@ -136,7 +149,9 @@ line-height: 20px;
 }
 
 /* host- section  */
-
+.host-section{
+padding: 0px 5px;
+}
 .host-section h2{
   margin-top: 60px;
 }
