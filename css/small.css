@@ -14,8 +14,11 @@ nav .btn-primary {
 }
 .nav-icon{
   display: flex;
+  transition: transform 0.3s ease; 
 }
-
+.nav-icon:hover{
+  transform: scale(1.2);
+}
 .logo img{
   max-width: 180px;
   
