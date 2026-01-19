@@ -1,0 +1,52 @@
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+  
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  gap: 30px;
+  
+}
+
+.card-1 {
+  grid-column: span 2;
+}
+
+.card-2 {
+  grid-column: span 2;
+}
+
+.card-3 {
+  grid-column: span 2;
+}
+
+.card-4 {
+  grid-column: span 2;
+}
+
+.card-5 {
+  grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
