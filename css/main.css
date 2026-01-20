@@ -65,7 +65,17 @@ body {
   border-radius: 25px;
   border: none;
   transition: transform 0.4s ease ;
- 
+ border: 1px solid #69f7b5;
+ animation: borderAnimation 5s ease infinite;
+}
+
+@keyframes borderAnimation{
+  from{
+    border-color: white  ;
+  }
+  to{
+    border-color: rgb(253, 1, 1);
+  }
 }
 
 .btn-new:hover{
@@ -293,7 +303,22 @@ nav {
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 40px;
   transition: transform 0.3s ease;
+  border: 1px solid #69f7b5;
+ animation: borderAnimation 5s linear infinite;
 }
+ 
+
+
+@keyframes borderAnimation{
+  from{
+    border-color: rgb(255, 5, 226)  ;
+  }
+  to{
+    border-color: rgb(12, 24, 255);
+  }
+}
+
+
 
 .card-1 {
   grid-row: span 2;
