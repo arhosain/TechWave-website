@@ -229,12 +229,24 @@ nav {
 }
 
 .item {
-  transition: transform 0.3s ease;
+  
+  animation: bubbleAni 1.5s linear infinite;
+}
+
+@keyframes bubbleAni{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
   
 }
-.item:hover {
-  transform: scale(1.2);
-}
+
+
 
 .item h3 {
   color: #00ff88;
@@ -305,6 +317,7 @@ nav {
   transition: transform 0.3s ease;
   border: 1px solid #69f7b5;
  animation: borderAnimation 5s linear infinite;
+
 }
  
 
@@ -371,6 +384,26 @@ nav {
 .episode:hover{
   transform: scale(1.08);
 }
+
+
+.video-container{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .video iframe {
   max-width: 380px;

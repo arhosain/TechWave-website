@@ -1,9 +1,19 @@
 
 
-
-
 @media screen and (min-width:576px) and (max-width:992px){
   
+nav{
+  padding: 20px 5px;
+}
+.nav-contents {
+  display: none;
+}
+
+
+
+
+
+
 
 .cards {
   display: grid;
@@ -33,7 +43,13 @@
   grid-column: span 2;
 }
 
-
+.about-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
 
 
