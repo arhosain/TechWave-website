@@ -141,6 +141,20 @@ nav {
   display: flex;
   justify-content: center;
 }
+.big-mic img{
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
 
 .hero-contents {
   margin-top: 40px;
