@@ -144,7 +144,7 @@ nav {
 .big-mic {
   background-image: url(../assets/hero-circle.png);
   background-repeat: no-repeat;
-  /* background-position: center; */
+  
   width: 350px;
   height: 350px;
   align-items: center;
@@ -201,7 +201,7 @@ nav {
 /* about section  */
 
 .about-section {
-  /* padding-top: 50px; */
+  
   padding-bottom: 120px;
   padding-left: 40px;
   padding-right: 40px;
@@ -386,9 +386,7 @@ nav {
 }
 
 
-.video-container{
-  
-}
+
 
 
 
