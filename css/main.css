@@ -66,12 +66,12 @@ body {
   border: none;
   transition: transform 0.4s ease ;
  border: 1px solid #69f7b5;
- animation: borderAnimation 5s ease infinite;
+ animation: borderAnimation 4s ease infinite;
 }
 
 @keyframes borderAnimation{
   from{
-    border-color: white  ;
+    border-color: rgb(46, 27, 255)  ;
   }
   to{
     border-color: rgb(253, 1, 1);
